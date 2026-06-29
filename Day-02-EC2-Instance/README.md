@@ -1,1 +1,1 @@
-#Day 02 EC2 Instance
+**#Day - 02 EC2 Instance**
