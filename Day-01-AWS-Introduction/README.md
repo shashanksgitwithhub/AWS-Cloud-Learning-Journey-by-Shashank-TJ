@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS-Introduction-white" alt="AWS Badge">
 </p>
+
+
 
 # ☁ Day 01 - AWS Introduction
 
