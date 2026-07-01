@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
+</p>
+
 # AWS-Cloud-Learning-Journey-by-Shashank-TJ
 My hands-on AWS, DevOps, Linux, and Cloud Computing learning journey.
 
