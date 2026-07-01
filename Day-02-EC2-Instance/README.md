@@ -1,5 +1,6 @@
+
 <p align="center">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
+  <img src="https://img.shields.io/badge/AWS-EC2-orange" alt="AWS Badge">
 </p>
 
 # ☁ Day 02 - Amazon EC2 (Elastic Compute Cloud)
