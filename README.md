@@ -55,17 +55,18 @@ To become a Cloud Engineer / AWS Engineer / DevOps Engineer by building strong p
 * Day 3 – EC2 Connectivity - Connecting to EC2 using EC2 Instance Connect
 * Day 4 – EC2 Connectivity - MobaXterm
 * Day 5 – EC2 Connectivity - PuTTY
-* Day 6 – VPC and Networking
-* Day 7 – Application Load Balancer
-* Day 8 – Auto Scaling
-* Day 9 – Elastic Block Store 
-* Day 10 – NAT Gateway
-* Day 11 – VPC Peering 
-* Day 12 – Transit Gateway
-* Day 13 – IAM
-* Day 14 – Amazon S3
-* Day 15 – S3 CLI and Lambda
-* Day 16 - Aurora and RDS
-* Day 17 - CloudWatch
-* Day 18 - Route 53
-* Day 19 - DynamoDB
+* Day 6 - EC2 Connectivity - Remote Desktop Connection
+* Day 7 – VPC and Networking
+* Day 8 – Application Load Balancer
+* Day 9 – Auto Scaling
+* Day 10 – Elastic Block Store 
+* Day 11 – NAT Gateway
+* Day 12 – VPC Peering 
+* Day 13 – Transit Gateway
+* Day 14 – IAM
+* Day 15 – Amazon S3
+* Day 16 – S3 CLI and Lambda
+* Day 17 - Aurora and RDS
+* Day 18 - CloudWatch
+* Day 19 - Route 53
+* Day 20 - DynamoDB
