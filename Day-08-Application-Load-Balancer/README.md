@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Load Balancer-orange" alt="AWS Badge">
+</p>
+
 # ☁ Day 08 - Application Load Balancer (ALB)
 
 ## Objective
