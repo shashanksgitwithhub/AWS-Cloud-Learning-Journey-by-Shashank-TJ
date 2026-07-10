@@ -82,7 +82,7 @@ When a threshold is crossed, it triggers scaling actions.
 
 # Auto Scaling Architecture
 
-<img width="772" height="612" alt="AdobeExpressPhotos_d145826c96d844b2aa3676ccf2b2e321_CopyEdited" src="https://github.com/user-attachments/assets/85762858-4919-4059-9fa5-1374956c767d" />
+<img width="772" height="692" alt="Auto_scaling drawio (1)" src="https://github.com/user-attachments/assets/08e93c80-1eef-4d98-9e78-1d20bfddfc2c" />
 
 ---
 
@@ -97,7 +97,7 @@ EC2 → Launch Templates
 Configuration:
 
 * Ubuntu Server AMI
-* t2.micro Instance
+* t3.micro Instance
 * Existing Key Pair
 * Existing Security Group
 * User Data Script
@@ -122,7 +122,7 @@ Select the Launch Template.
 
 Select:
 
-* Existing VPC
+* Test_VPC
 * Public Subnets
 
 ---
@@ -135,9 +135,9 @@ Choose:
 
 Select:
 
-* Application Load Balancer
+* Test-LB
 
-Select the Target Group created previously.
+Select the Target Group created Test-EC2-SG.
 
 ---
 
@@ -155,7 +155,7 @@ Desired Capacity:
 
 Maximum Capacity:
 
-4
+3
 
 ---
 
@@ -268,14 +268,37 @@ Yes. However, it is commonly used with an Application Load Balancer to distribut
 
 # Screenshots to Add
 
-* Launch Template Creation
-* Launch Template Details
-* Auto Scaling Group Creation
-* Auto Scaling Group Configuration
-* Scaling Policy
-* Attached Application Load Balancer
-* Target Group Association
-* Running EC2 Instances
+* Launch Template Creation<img width="1907" height="1008" alt="Screenshot 2026-07-10 100902" src="https://github.com/user-attachments/assets/b83f9ace-4ac3-48c9-901f-03b4d1f75a6c" />
+
+* Launch Template Details<img width="1907" height="1011" alt="Screenshot 2026-07-10 100937" src="https://github.com/user-attachments/assets/015dab0a-587f-49cb-b7c2-fd87226298a4" />
+  <img width="1907" height="1007" alt="Screenshot 2026-07-10 101002" src="https://github.com/user-attachments/assets/b8696871-2f81-41fe-b873-897db33d57b0" />
+  <img width="1907" height="1009" alt="Screenshot 2026-07-10 101243" src="https://github.com/user-attachments/assets/88961d62-bff2-4283-828d-de70f2c3ede4" />
+  <img width="1907" height="1007" alt="Screenshot 2026-07-10 101330" src="https://github.com/user-attachments/assets/706099e0-96d3-401e-a2dd-09cdbfbcc1b5" />
+  <img width="1907" height="1007" alt="Screenshot 2026-07-10 101344" src="https://github.com/user-attachments/assets/e93623b0-80b5-4008-a2bc-ebe039480877" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-10 101415" src="https://github.com/user-attachments/assets/b47eba4b-d850-4814-9d14-eed22ce1ffdd" />
+  <img width="1907" height="1010" alt="Screenshot 2026-07-10 101437" src="https://github.com/user-attachments/assets/f4079652-09b1-416c-aca3-916483308f2f" />
+
+* Auto Scaling Group Creation<img width="1907" height="1015" alt="Screenshot 2026-07-10 101459" src="https://github.com/user-attachments/assets/202741d9-8d6c-4453-8f8f-a52a3c73cb64" />
+
+* Auto Scaling Group Configuration<img width="1907" height="1007" alt="Screenshot 2026-07-10 101525" src="https://github.com/user-attachments/assets/dce9f6b2-4eb2-41eb-9eed-63edc79bd22d" />
+  <img width="1907" height="1007" alt="Screenshot 2026-07-10 101555" src="https://github.com/user-attachments/assets/0c24bf65-bb19-482c-a9a8-f9316819f2a7" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-10 101636" src="https://github.com/user-attachments/assets/f6ac2f58-0bd9-4434-80a3-5f2b8aa7dfbe" />
+
+* Attached Application Load Balancer<img width="1907" height="1010" alt="Screenshot 2026-07-10 101616" src="https://github.com/user-attachments/assets/777333e0-42d0-426f-832c-2e06066b0d7b"
+                                      />
+* Scaling Policy<img width="1907" height="1010" alt="Screenshot 2026-07-10 101651" src="https://github.com/user-attachments/assets/7ed53c74-132e-40b8-b9d5-339fdb13fe8e" />
+
+* Target Group Association and creation<img width="1907" height="1004" alt="Screenshot 2026-07-10 101754" src="https://github.com/user-attachments/assets/e565b7cb-0366-43c0-a8c4-ac39af7b6d2a" />
+  <img width="1907" height="1009" alt="Screenshot 2026-07-10 101818" src="https://github.com/user-attachments/assets/f018378b-6ca7-41a7-b9bd-bdd2313e9802" />
+  <img width="1907" height="1012" alt="Screenshot 2026-07-10 101839" src="https://github.com/user-attachments/assets/f28bde94-8d6e-4850-a5d1-04f648982793" />
+
+* Copy DNS name<img width="1907" height="1007" alt="Screenshot 2026-07-10 102027" src="https://github.com/user-attachments/assets/3f8e3453-f61d-441f-976d-272636a699ff" />
+
+* Output<img width="1907" height="1013" alt="Screenshot 2026-07-10 102104" src="https://github.com/user-attachments/assets/704db521-bcc2-4eba-9a37-29d1ae59e20d" />
+  <img width="1907" height="1010" alt="Screenshot 2026-07-10 102122" src="https://github.com/user-attachments/assets/8afe4544-ee64-4a85-a3fc-9b06a1f93dd0" />
+
+* Healthly and two Running EC2 Instances<img width="1907" height="1009" alt="Screenshot 2026-07-10 105029" src="https://github.com/user-attachments/assets/d4563826-5157-4834-ab75-95ca12721171" />
+  <img width="1907" height="1007" alt="Screenshot 2026-07-10 105654" src="https://github.com/user-attachments/assets/9b5f21e3-70b3-465f-b06c-108518525e26" />
 
 ---
 
