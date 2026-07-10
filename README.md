@@ -39,7 +39,8 @@ This repository documents my daily learning, practical implementations, notes, a
 ✅ AWS Lambda
 ✅ Amazon RDS and Aurora
 ✅ CloudWatch
-
+✅ Route 53
+✅ DynamoDB
 ---
 
 ## Goal
