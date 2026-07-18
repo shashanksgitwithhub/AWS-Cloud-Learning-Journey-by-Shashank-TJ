@@ -163,11 +163,13 @@ Example:
 
 Test communication using private IP addresses.
 
-Example:
+Performed these commands:
 
 ```bash
-ping <Private-IP>
+curl 10.0.1.82
+ping www.google.com
 ```
+Repeat these in other two servers terminal 
 
 If successful, the Transit Gateway is routing traffic correctly.
 
@@ -263,12 +265,30 @@ It supports:
 
 # Screenshots
 
-* Transit Gateway Dashboard
-* Transit Gateway Creation
-* Transit Gateway Attachment
-* Route Table Configuration
-* Attached VPCs
-* Successful Connectivity Test
+* Create three VPCs<img width="1907" height="1009" alt="Screenshot 2026-07-16 103911" src="https://github.com/user-attachments/assets/f6b11a8c-3016-45f2-9ff5-73efc2d54f3c" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 104134" src="https://github.com/user-attachments/assets/7728a7a0-a4b3-41cd-9682-661919f68f68" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 104457" src="https://github.com/user-attachments/assets/a0284b88-93bd-4c55-ac6c-a9d4baae04a9" />
+* Transit Gateway Creation<img width="1907" height="1011" alt="Screenshot 2026-07-16 105312" src="https://github.com/user-attachments/assets/98b27596-7bb8-4645-b9f6-4c5ccb5a5f9a" />
+  <img width="1907" height="1010" alt="Screenshot 2026-07-16 105321" src="https://github.com/user-attachments/assets/de2b0b12-21bc-45e3-a1c1-a4f5c8e17592" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 105558" src="https://github.com/user-attachments/assets/6ad7be54-1a58-425d-916d-a12ae2e54fd8" />
+* Transit Gateway Attachment<img width="1904" height="1009" alt="Screenshot 2026-07-16 105750" src="https://github.com/user-attachments/assets/b12b0812-1d24-49ab-8f52-7d4d787b15b7" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 105757" src="https://github.com/user-attachments/assets/d661399b-45f1-4a32-855c-3c2c47eec7ff" />
+  <img width="1907" height="1010" alt="Screenshot 2026-07-16 105836" src="https://github.com/user-attachments/assets/94b24663-afb8-4458-a612-c98df96f7a6a" />
+  <img width="1907" height="1010" alt="Screenshot 2026-07-16 105846" src="https://github.com/user-attachments/assets/d1af3303-d41e-46fb-8e3a-015b989e7599" />
+  <img width="1907" height="1010" alt="Screenshot 2026-07-16 105906" src="https://github.com/user-attachments/assets/0ec3f4a5-f4c0-45aa-a2c6-df491dd7c0a9" />
+  <img width="1907" height="1013" alt="Screenshot 2026-07-16 105918" src="https://github.com/user-attachments/assets/e0b3ad9c-2c18-458f-86bd-6c9c65f8403b" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 110043" src="https://github.com/user-attachments/assets/fccac2b8-6ced-4d0e-9fdc-239059ccadd2" />
+* Create three EC2 instances<img width="1907" height="1014" alt="Screenshot 2026-07-16 104740" src="https://github.com/user-attachments/assets/cd475675-a3b3-46ba-aaab-ecf5fc3c16db" />
+  <img width="1907" height="1015" alt="Screenshot 2026-07-16 104856" src="https://github.com/user-attachments/assets/44189fa1-e6c0-44ae-a6d7-f88bb67f275c" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 105035" src="https://github.com/user-attachments/assets/80be2157-c08a-4fc4-b9a0-cb96738b3e6c" />
+* Route Table Configuration<img width="1907" height="1010" alt="Screenshot 2026-07-16 110200" src="https://github.com/user-attachments/assets/2b98b9f4-31b4-40cd-9ef4-59e0e91f864b" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 110212" src="https://github.com/user-attachments/assets/f29b3ea4-59da-4b74-81b8-1a9ff2ddb49d" />
+  <img width="1907" height="1008" alt="Screenshot 2026-07-16 110246" src="https://github.com/user-attachments/assets/0499ff41-75a3-421f-b9b6-57b2680e5634" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 110257" src="https://github.com/user-attachments/assets/a64638e6-4975-438a-83a5-6ff652acd3b0" />
+  <img width="1907" height="1011" alt="Screenshot 2026-07-16 110408" src="https://github.com/user-attachments/assets/e6e4378a-69f7-4939-902c-74dfd6f3ce55" />
+  <img width="1907" height="1013" alt="Screenshot 2026-07-16 110416" src="https://github.com/user-attachments/assets/7a93a5e6-3066-4604-91c2-8e824ee64ffb" />
+* Open MoaXterm<img width="1907" height="1012" alt="Screenshot 2026-07-16 110429" src="https://github.com/user-attachments/assets/ac579f0b-841e-49a9-aa47-dddf8780a9dd" />
+* Successful Connectivity Test<img width="1907" height="1012" alt="Screenshot 2026-07-18 120814" src="https://github.com/user-attachments/assets/397d9fd3-e874-452d-ab31-1fecc534c171" />
 
 ---
 
