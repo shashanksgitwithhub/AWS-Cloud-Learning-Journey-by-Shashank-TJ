@@ -66,8 +66,9 @@ To become a Cloud Engineer / AWS Engineer / DevOps Engineer by building strong p
 * Day 13 – Transit Gateway
 * Day 14 – IAM
 * Day 15 – Amazon S3
-* Day 16 – S3 CLI and Lambda
-* Day 17 - Aurora and RDS
-* Day 18 - CloudWatch
-* Day 19 - Route 53
-* Day 20 - DynamoDB
+* Day 16 – AWS CLI
+* DAY 17 - AWS Lambda
+* Day 18 - Aurora and RDS
+* Day 19 - CloudWatch
+* Day 20 - Route 53
+* Day 21 - DynamoDB
